@@ -36,6 +36,6 @@ public class MortgageCalculator {
         System.out.printf("Monthly Payment: %.2f\n", monthlyPayment); // Print the monthly payment rounded to 2 decimal places
         System.out.printf("Total Interest Paid: %.2f\n", totalInterest); // Print the total interest paid rounded to 2 decimal places
 
-        scanner.close(); // Close the scanner to avoid memory leaks
+        scanner.close(); // Close the scanner 
     }
 }
