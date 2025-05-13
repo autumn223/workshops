@@ -16,10 +16,10 @@ public class DealershipFileManager {
 
             String line;
 
-            // Skip the first line (dealership info)
+            
             line = bufferedReader.readLine(); // Read and discard
 
-            // Read and process vehicle lines
+            
             while ((line = bufferedReader.readLine()) != null) {
                 String[] vehicleData = line.split("\\|");
 
@@ -47,6 +47,6 @@ public class DealershipFileManager {
     }
 
     public void saveDealership(Dealership dealership) {
-        // Optional: To be implemented
+        
     }
 }
