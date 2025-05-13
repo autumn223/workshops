@@ -7,7 +7,7 @@ import java.io.IOException;
 public class DealershipFileManager {
 
     public Dealership getDealership() {
-        // Hardcoded dealership info (since we're ignoring the first line)
+        
         Dealership dealership = new Dealership("Dealership", "123 Main St", "555-1234");
 
         try {
