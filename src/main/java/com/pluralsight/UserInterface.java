@@ -6,7 +6,7 @@ public class UserInterface {
     private Dealership dealership;
 
     public void display() {
-        init(); // Load dealership data
+        init(); 
 
         Scanner scanner = new Scanner(System.in);
         int choice;
