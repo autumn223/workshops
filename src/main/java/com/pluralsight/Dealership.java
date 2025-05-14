@@ -78,10 +78,5 @@ public class Dealership {
 
 }
 
-//Vehicle vehicle = new Vehicle()
-
-//Dealership dealership = new Dealership("fds", "fsd", "dfsa");
-//dealership.getAllVehicles();
-//dealership.getVehiclesByType("car")
 
 
